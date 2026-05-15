@@ -8,46 +8,21 @@ export const metadata: Metadata = {
 };
 
 const articles = [
-  {
-    title: "HEIC to JPG: The Complete Guide to Converting iPhone Photos",
-    description: "Learn everything about HEIC files and how to convert them to JPG — step-by-step guide for iPhone, Windows, and online conversion.",
-    href: "/blog/heic-to-jpg-guide",
-    category: "Image Format Guides",
-    date: "May 15, 2026",
-    readTime: "6 min read",
-  },
-  {
-    title: "Social Media Image Sizes Cheat Sheet 2026",
-    description: "The complete guide to social media image dimensions for Instagram, Facebook, Twitter, LinkedIn, YouTube, Pinterest, and TikTok.",
-    href: "/blog/social-media-image-sizes-2026",
-    category: "Social Media Guides",
-    date: "May 15, 2026",
-    readTime: "5 min read",
-  },
-  {
-    title: "WebP vs PNG vs JPEG: Which Image Format Should You Use?",
-    description: "Side-by-side comparison of the three most common web image formats. Learn when to use each format for best results.",
-    href: "/blog/webp-vs-png-vs-jpeg",
-    category: "Image Format Guides",
-    date: "May 15, 2026",
-    readTime: "6 min read",
-  },
-  {
-    title: "How to Compress Images Without Losing Quality",
-    description: "Master image compression for web, email, and storage. Tips on quality settings, format selection, and batch compression.",
-    href: "/blog/how-to-compress-images",
-    category: "Image Optimization Guides",
-    date: "May 15, 2026",
-    readTime: "5 min read",
-  },
-  {
-    title: "How to Remove Image Backgrounds — Complete Guide",
-    description: "Learn browser-based and AI methods for removing image backgrounds. Compare approaches for logos, product photos, and graphics.",
-    href: "/blog/remove-background-guide",
-    category: "Image Editing Guides",
-    date: "May 15, 2026",
-    readTime: "5 min read",
-  },
+  { title: "HEIC to JPG: The Complete Guide to Converting iPhone Photos", description: "Learn everything about HEIC files and how to convert them to JPG — step-by-step guide for iPhone, Windows, and online conversion.", href: "/blog/heic-to-jpg-guide", category: "Image Format Guides", date: "May 15, 2026", readTime: "6 min read" },
+  { title: "Social Media Image Sizes Cheat Sheet 2026", description: "The complete guide to social media image dimensions for Instagram, Facebook, Twitter, LinkedIn, YouTube, Pinterest, and TikTok.", href: "/blog/social-media-image-sizes-2026", category: "Social Media Guides", date: "May 15, 2026", readTime: "5 min read" },
+  { title: "WebP vs PNG vs JPEG: Which Image Format Should You Use?", description: "Side-by-side comparison of the three most common web image formats. Learn when to use each format for best results.", href: "/blog/webp-vs-png-vs-jpeg", category: "Image Format Guides", date: "May 15, 2026", readTime: "6 min read" },
+  { title: "How to Compress Images Without Losing Quality", description: "Master image compression for web, email, and storage. Tips on quality settings, format selection, and batch compression.", href: "/blog/how-to-compress-images", category: "Image Optimization Guides", date: "May 15, 2026", readTime: "5 min read" },
+  { title: "How to Remove Image Backgrounds — Complete Guide", description: "Learn browser-based and AI methods for removing image backgrounds. Compare approaches for logos, product photos, and graphics.", href: "/blog/remove-background-guide", category: "Image Editing Guides", date: "May 15, 2026", readTime: "5 min read" },
+  { title: "How to Resize Images for Instagram — Complete Size Guide", description: "Master Instagram image sizes for posts, stories, reels, and profile photos. Built-in presets for every format.", href: "/blog/resize-images-for-instagram", category: "Social Media Guides", date: "May 15, 2026", readTime: "5 min read" },
+  { title: "How to Optimize Images for Web — Speed, SEO & Quality Guide", description: "Optimize images for faster websites. Covers compression, format selection, responsive images, lazy loading, and Core Web Vitals.", href: "/blog/how-to-optimize-images-for-web", category: "Performance & SEO Guides", date: "May 15, 2026", readTime: "6 min read" },
+  { title: "Bulk Image Processing: How to Edit Multiple Images at Once", description: "Learn how to batch resize, compress, and convert images simultaneously. Save hours with bulk processing workflows.", href: "/blog/bulk-image-processing-guide", category: "Productivity Guides", date: "May 15, 2026", readTime: "5 min read" },
+  { title: "The Complete Guide to Image File Formats — PNG, JPEG, WebP, SVG", description: "Master every image file format: PNG, JPEG, WebP, SVG, HEIC, GIF, ICO. Learn when to use each format.", href: "/blog/image-format-guide-complete", category: "Image Format Guides", date: "May 15, 2026", readTime: "7 min read" },
+  { title: "SVG vs PNG: Vector vs Raster Graphics — When to Use Each", description: "Understand the difference between SVG vector and PNG raster graphics. When to use each for logos, icons, and photos.", href: "/blog/svg-vs-png-vector-vs-raster", category: "Image Format Guides", date: "May 15, 2026", readTime: "5 min read" },
+  { title: "E-Commerce Product Image Optimization — Complete Guide", description: "Optimize product images for Shopify, Amazon, eBay, and WooCommerce. Sizing, compression, and format requirements per platform.", href: "/blog/ecommerce-product-image-guide", category: "E-Commerce Guides", date: "May 15, 2026", readTime: "6 min read" },
+  { title: "Online Image Tools & Privacy: Why Browser-Based Processing Matters", description: "Compare privacy of online image tools. Learn why browser-based processing protects your photos from server uploads and data misuse.", href: "/blog/online-tools-privacy-comparison", category: "Privacy & Security", date: "May 15, 2026", readTime: "5 min read" },
+  { title: "How to Create a Favicon — Complete Guide for 2026", description: "Create and convert favicons in ICO format. Step-by-step guide covering sizes, formats, tools, and browser compatibility.", href: "/blog/how-to-create-favicon", category: "Web Design Guides", date: "May 15, 2026", readTime: "4 min read" },
+  { title: "Image Editing for Beginners — The Only Guide You Need", description: "New to image editing? Learn the 5 essential skills: resize, compress, convert, remove backgrounds. No software required.", href: "/blog/image-editing-beginners-guide", category: "Beginner Guides", date: "May 15, 2026", readTime: "5 min read" },
+  { title: "How to Convert and Optimize Images for Email", description: "Prepare images for email: reduce file size for attachment limits, choose the right format, and compress without quality loss.", href: "/blog/convert-images-for-email", category: "Practical Guides", date: "May 15, 2026", readTime: "5 min read" },
 ];
 
 export default function BlogPage() {

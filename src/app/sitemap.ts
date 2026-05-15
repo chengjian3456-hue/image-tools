@@ -26,6 +26,16 @@ const blogPosts = [
   "blog/webp-vs-png-vs-jpeg",
   "blog/how-to-compress-images",
   "blog/remove-background-guide",
+  "blog/resize-images-for-instagram",
+  "blog/how-to-optimize-images-for-web",
+  "blog/bulk-image-processing-guide",
+  "blog/image-format-guide-complete",
+  "blog/svg-vs-png-vector-vs-raster",
+  "blog/ecommerce-product-image-guide",
+  "blog/online-tools-privacy-comparison",
+  "blog/how-to-create-favicon",
+  "blog/image-editing-beginners-guide",
+  "blog/convert-images-for-email",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
