@@ -112,7 +112,33 @@ export default function HeicToJpgPage() {
         </div>
 
         <article className="mt-8 prose max-w-none">
-          <h2 className="text-xl font-bold mb-3">How to Convert HEIC to JPG</h2>
+          <h2 className="text-xl font-bold mb-3">What Is HEIC and Why Convert to JPG?</h2>
+          <p className="text-[var(--muted)] leading-relaxed">
+            HEIC (High Efficiency Image Container) is Apple&apos;s default photo format since iOS 11. It uses
+            the HEIF standard to store images at roughly half the file size of JPEG with comparable quality.
+            While this saves storage space on your iPhone, HEIC files aren&apos;t supported by many apps, websites,
+            and older devices — including most Windows PCs, Android devices, and popular image editors.
+            Converting to JPG ensures your photos work everywhere.
+          </p>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">When to Convert HEIC to JPG</h2>
+          <div className="grid sm:grid-cols-2 gap-3 mt-2">
+            {[
+              { title: "Uploading to Websites", desc: "Most websites don't accept HEIC uploads. Convert to JPG first for compatibility." },
+              { title: "Sharing with Android Users", desc: "Android devices can't natively open HEIC files. JPG ensures everyone can view your photos." },
+              { title: "Opening on Windows PC", desc: "Windows requires a paid HEIC codec. Converting to JPG eliminates this barrier." },
+              { title: "Submitting Documents", desc: "Government portals, job applications, and forms typically only accept JPG or PNG." },
+              { title: "Editing in Photoshop", desc: "Older versions of Photoshop don't support HEIC. JPG is universally editable." },
+              { title: "Creating Photo Albums", desc: "JPG is the standard format for photo printing services and digital albums." },
+            ].map((item) => (
+              <div key={item.title} className="p-3 rounded-lg border border-border bg-[var(--surface-alt)]">
+                <h3 className="font-semibold text-sm">{item.title}</h3>
+                <p className="text-xs text-[var(--muted)] mt-1">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">How to Convert HEIC to JPG Online</h2>
           <p className="text-[var(--muted)] leading-relaxed">
             iPhone photos are saved as HEIC files by default, which saves space but isn&apos;t compatible
             with all apps and websites. Our free HEIC to JPG converter makes it easy to convert your
@@ -120,10 +146,18 @@ export default function HeicToJpgPage() {
             browser, so your photos stay completely private.
           </p>
           <ol className="mt-4 space-y-2 text-[var(--muted)] list-decimal pl-5">
-            <li><strong className="text-foreground">Upload</strong> — select a HEIC file from your device.</li>
-            <li><strong className="text-foreground">Wait a moment</strong> — the conversion happens automatically in your browser.</li>
-            <li><strong className="text-foreground">Download</strong> — save your new JPG file.</li>
+            <li><strong className="text-foreground">Upload</strong> — select a HEIC or HEIF file from your device (iPhone photos use the .heic extension).</li>
+            <li><strong className="text-foreground">Wait a moment</strong> — the conversion happens automatically in your browser at 92% quality for optimal results.</li>
+            <li><strong className="text-foreground">Download</strong> — save your new JPG file. It&apos;s compatible with all devices, apps, and websites.</li>
           </ol>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">Tips for Best Results</h2>
+          <ul className="space-y-2 text-[var(--muted)] list-disc pl-5">
+            <li><strong className="text-foreground">Batch processing.</strong> Need to convert many HEIC files? Try our <a href="/tools/bulk-image-resizer" className="text-[var(--color-primary)] hover:underline">Bulk Image Resizer</a> for up to 20 images.</li>
+            <li><strong className="text-foreground">Keep originals.</strong> Always keep your original HEIC files — they&apos;re smaller and higher quality than JPG.</li>
+            <li><strong className="text-foreground">Check quality.</strong> Our converter uses 92% JPG quality by default, striking the best balance between size and quality.</li>
+            <li><strong className="text-foreground">Privacy guaranteed.</strong> Your photos stay on your device. Unlike other converters, we never upload your images to a server.</li>
+          </ul>
         </article>
 
         <div className="mt-6">

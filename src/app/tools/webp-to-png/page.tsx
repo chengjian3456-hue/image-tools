@@ -82,17 +82,50 @@ export default function WebpToPngPage() {
         </div>
 
         <article className="mt-8 prose max-w-none">
-          <h2 className="text-xl font-bold mb-3">How to Convert WebP to PNG</h2>
+          <h2 className="text-xl font-bold mb-3">What Is WebP and Why Convert to PNG?</h2>
+          <p className="text-[var(--muted)] leading-relaxed">
+            WebP is a modern image format developed by Google that offers superior compression — files are
+            25-35% smaller than JPEG or PNG at equivalent quality. While WebP is excellent for website
+            performance, it still lacks universal support. Many image editors (including older versions of
+            Photoshop), presentation software, and document tools cannot open WebP files. Converting to PNG
+            gives you a lossless, universally compatible image that works with every app and device.
+          </p>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">When to Convert WebP to PNG</h2>
+          <div className="grid sm:grid-cols-2 gap-3 mt-2">
+            {[
+              { title: "Editing in Software", desc: "Photoshop, GIMP, and most editors work better with PNG than WebP." },
+              { title: "Creating Presentations", desc: "PowerPoint and Google Slides don't always display WebP correctly. PNG is reliable." },
+              { title: "Printing Images", desc: "Print services typically require PNG or JPEG — WebP is rarely accepted." },
+              { title: "Sharing with Others", desc: "Not everyone can open WebP files. PNG ensures the recipient can view your image." },
+              { title: "Archiving", desc: "PNG is lossless and standardized — better for long-term image storage than WebP." },
+              { title: "Using as Assets", desc: "Game engines, design tools, and development environments prefer PNG over WebP." },
+            ].map((item) => (
+              <div key={item.title} className="p-3 rounded-lg border border-border bg-[var(--surface-alt)]">
+                <h3 className="font-semibold text-sm">{item.title}</h3>
+                <p className="text-xs text-[var(--muted)] mt-1">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">How to Convert WebP to PNG Online</h2>
           <p className="text-[var(--muted)] leading-relaxed">
             Found a WebP image online but can&apos;t open it in your favorite app? Our converter instantly
-            transforms WebP images to the universally-compatible PNG format. Upload, convert, and
-            download — all in your browser.
+            transforms WebP images to the universally-compatible PNG format at maximum quality. Upload,
+            convert, and download — all in your browser with no loss of quality.
           </p>
           <ol className="mt-4 space-y-2 text-[var(--muted)] list-decimal pl-5">
-            <li><strong className="text-foreground">Upload</strong> — drag and drop your WebP file.</li>
-            <li><strong className="text-foreground">Auto-convert</strong> — conversion starts automatically.</li>
-            <li><strong className="text-foreground">Download</strong> — save your new PNG file.</li>
+            <li><strong className="text-foreground">Upload</strong> — drag and drop your WebP file or click to browse.</li>
+            <li><strong className="text-foreground">Auto-convert</strong> — conversion to PNG starts automatically. PNG is lossless so no quality is lost.</li>
+            <li><strong className="text-foreground">Download</strong> — save your new PNG file, now compatible with every app and device.</li>
           </ol>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">Tips for Best Results</h2>
+          <ul className="space-y-2 text-[var(--muted)] list-disc pl-5">
+            <li><strong className="text-foreground">File size will increase.</strong> PNG is lossless, so expect larger files than the original WebP. This is normal.</li>
+            <li><strong className="text-foreground">Check if you really need PNG.</strong> If you just need to open the image, try <a href="/tools/image-converter" className="text-[var(--color-primary)] hover:underline">Image Converter</a> — JPEG may be smaller.</li>
+            <li><strong className="text-foreground">Batch conversion.</strong> Have many WebP files? Use our <a href="/tools/bulk-image-resizer" className="text-[var(--color-primary)] hover:underline">Bulk Resizer</a> for batch processing.</li>
+          </ul>
         </article>
 
         <div className="mt-6">

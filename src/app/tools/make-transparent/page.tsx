@@ -105,17 +105,53 @@ export default function MakeTransparentPage() {
         <div className="mt-8"><AdSlot format="horizontal" className="min-h-[90px]" /></div>
 
         <article className="mt-8 prose max-w-none">
-          <h2 className="text-xl font-bold mb-3">How to Make an Image Background Transparent</h2>
+          <h2 className="text-xl font-bold mb-3">What Is Background Removal?</h2>
+          <p className="text-[var(--muted)] leading-relaxed">
+            Background removal (or &quot;making transparent&quot;) replaces a solid-colored background — typically white
+            or light gray — with transparency. This allows you to place your image on any background: colored
+            websites, product pages, presentation slides, or overlays. Our tool uses pixel color thresholding
+            that runs entirely in your browser, unlike AI-based tools that require uploading your image to remote
+            servers. For clean results, use images with clear contrast between the subject and a white or
+            light-colored background.
+          </p>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">When to Make an Image Background Transparent</h2>
+          <div className="grid sm:grid-cols-2 gap-3 mt-2">
+            {[
+              { title: "Logo Preparation", desc: "Remove white backgrounds from logos for use on colored headers, dark mode websites, or merch designs." },
+              { title: "Product Photos", desc: "Create clean product images with transparent backgrounds for e-commerce listings." },
+              { title: "Presentation Graphics", desc: "Place graphics on any slide background without ugly white boxes." },
+              { title: "Watermark Creation", desc: "Create transparent overlay graphics for video and photo watermarks." },
+              { title: "Design Assets", desc: "Isolate objects from their backgrounds for use in graphic design projects." },
+              { title: "Sticker Design", desc: "Create sticker-style images with no background for messaging apps and social media." },
+            ].map((item) => (
+              <div key={item.title} className="p-3 rounded-lg border border-border bg-[var(--surface-alt)]">
+                <h3 className="font-semibold text-sm">{item.title}</h3>
+                <p className="text-xs text-[var(--muted)] mt-1">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">How to Make an Image Background Transparent Online</h2>
           <p className="text-[var(--muted)] leading-relaxed">
             Need to remove a white background from a logo, product photo, or graphic? Our tool detects
-            and removes white/light backgrounds using pixel-level processing — all in your browser.
+            and removes white/light backgrounds using pixel-level processing — all in your browser for
+            complete privacy.
           </p>
           <ol className="mt-4 space-y-2 text-[var(--muted)] list-decimal pl-5">
-            <li><strong className="text-foreground">Upload</strong> — select an image with a white or light background.</li>
-            <li><strong className="text-foreground">Adjust threshold</strong> — fine-tune which brightness level to remove.</li>
-            <li><strong className="text-foreground">Remove</strong> — click to process and preview the result.</li>
-            <li><strong className="text-foreground">Download</strong> — save your transparent PNG.</li>
+            <li><strong className="text-foreground">Upload</strong> — select an image with a white or light-colored background. Best results with clear subject-background contrast.</li>
+            <li><strong className="text-foreground">Adjust threshold</strong> — set the brightness level to remove (240 = pure white, lower values remove more shades).</li>
+            <li><strong className="text-foreground">Fine-tune tolerance</strong> — increase tolerance to remove near-white colors (off-white, cream, light gray).</li>
+            <li><strong className="text-foreground">Download</strong> — save your image as a transparent PNG. Transparency is preserved in the alpha channel.</li>
           </ol>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">Tips for Best Results</h2>
+          <ul className="space-y-2 text-[var(--muted)] list-disc pl-5">
+            <li><strong className="text-foreground">Start with clean images.</strong> This tool works best on images with solid white/light backgrounds and clear edges.</li>
+            <li><strong className="text-foreground">Adjust threshold carefully.</strong> Start at 240 and gradually lower until the background is fully transparent without eating into your subject.</li>
+            <li><strong className="text-foreground">Complex backgrounds need AI.</strong> For busy or gradient backgrounds, AI-based tools work better but require uploading to a server. Our tool prioritizes privacy.</li>
+            <li><strong className="text-foreground">Always output PNG.</strong> Only PNG supports transparency. JPEG will add a white background back.</li>
+          </ul>
         </article>
 
         <div className="mt-6"><AdSlot format="rectangle" className="min-h-[250px]" /></div>

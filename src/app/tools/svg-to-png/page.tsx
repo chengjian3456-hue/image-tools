@@ -128,17 +128,51 @@ export default function SvgToPngPage() {
         <div className="mt-8"><AdSlot format="horizontal" className="min-h-[90px]" /></div>
 
         <article className="mt-8 prose max-w-none">
-          <h2 className="text-xl font-bold mb-3">How to Convert SVG to PNG</h2>
+          <h2 className="text-xl font-bold mb-3">What Is SVG and Why Convert to PNG?</h2>
+          <p className="text-[var(--muted)] leading-relaxed">
+            SVG (Scalable Vector Graphics) is a vector format that uses mathematical paths instead of pixels —
+            meaning it scales infinitely without quality loss. SVG is perfect for logos, icons, and web graphics.
+            However, many platforms (social media, presentations, email, document editors) don&apos;t support SVG.
+            Converting to PNG produces a high-resolution raster image that works universally at your specified
+            pixel dimensions.
+          </p>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">When to Convert SVG to PNG</h2>
+          <div className="grid sm:grid-cols-2 gap-3 mt-2">
+            {[
+              { title: "Social Media Posts", desc: "Instagram, Facebook, and Twitter don't accept SVG uploads. Convert to PNG first." },
+              { title: "Presentations", desc: "PowerPoint and Google Slides work best with PNG images, not SVG." },
+              { title: "Email Signatures", desc: "Email clients can't render SVG. PNG ensures your logo displays correctly." },
+              { title: "Printing", desc: "Most print services require raster formats (PNG, JPG) — not vector SVG." },
+              { title: "Thumbnail Creation", desc: "Create high-res PNG thumbnails from SVG icons at any size." },
+              { title: "App Development", desc: "Mobile and desktop apps typically use PNG assets, not raw SVG files." },
+            ].map((item) => (
+              <div key={item.title} className="p-3 rounded-lg border border-border bg-[var(--surface-alt)]">
+                <h3 className="font-semibold text-sm">{item.title}</h3>
+                <p className="text-xs text-[var(--muted)] mt-1">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">How to Convert SVG to PNG Online</h2>
           <p className="text-[var(--muted)] leading-relaxed">
             SVG files are great for web design, but many apps and platforms require PNG format. Our converter
-            rasterizes any SVG to a high-resolution PNG at your chosen dimensions.
+            rasterizes any SVG to a high-resolution PNG at your chosen dimensions — all in your browser for
+            maximum privacy.
           </p>
           <ol className="mt-4 space-y-2 text-[var(--muted)] list-decimal pl-5">
-            <li><strong className="text-foreground">Upload SVG</strong> — drag and drop your SVG file.</li>
-            <li><strong className="text-foreground">Set dimensions</strong> — choose the output width and height.</li>
-            <li><strong className="text-foreground">Choose background</strong> — pick a color or transparent background.</li>
-            <li><strong className="text-foreground">Download</strong> — save your PNG.</li>
+            <li><strong className="text-foreground">Upload SVG</strong> — drag and drop your SVG file. Both compressed (.svgz) and standard SVG are supported.</li>
+            <li><strong className="text-foreground">Set dimensions</strong> — choose the output width and height in pixels (512px is a good default for icons).</li>
+            <li><strong className="text-foreground">Choose background</strong> — pick a color or select transparent background for logos and icons.</li>
+            <li><strong className="text-foreground">Download</strong> — save your high-resolution PNG file.</li>
           </ol>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">Tips for Best Results</h2>
+          <ul className="space-y-2 text-[var(--muted)] list-disc pl-5">
+            <li><strong className="text-foreground">Go big.</strong> SVG can scale infinitely — choose a large pixel size (1024px+) for the highest quality PNG output.</li>
+            <li><strong className="text-foreground">Use transparent background.</strong> For logos and icons, enable transparency to get a clean PNG with no background color.</li>
+            <li><strong className="text-foreground">Try different sizes.</strong> Export the same SVG at multiple resolutions to have 1x, 2x, and 3x versions for retina displays.</li>
+          </ul>
         </article>
 
         <div className="mt-6"><AdSlot format="rectangle" className="min-h-[250px]" /></div>

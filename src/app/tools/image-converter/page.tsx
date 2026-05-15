@@ -111,12 +111,62 @@ export default function ImageConverterPage() {
         <div className="mt-8"><AdSlot format="horizontal" className="min-h-[90px]" /></div>
 
         <article className="mt-8 prose max-w-none">
-          <h2 className="text-xl font-bold mb-3">How to Convert Image Formats</h2>
+          <h2 className="text-xl font-bold mb-3">What Is Image Format Conversion?</h2>
+          <p className="text-[var(--muted)] leading-relaxed">
+            Image format conversion changes an image from one file format to another — for example, PNG to JPEG,
+            WebP to PNG, or any image to ICO. Different formats have different strengths: PNG supports transparency
+            and is lossless, JPEG offers small file sizes for photos, WebP provides the best web compression, and
+            ICO is used for favicons. Our converter supports all four formats so you always have the right format
+            for your needs.
+          </p>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">Format Comparison</h2>
+          <div className="overflow-x-auto mt-2">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="border-b border-border">
+                  <th className="text-left py-2 pr-4">Format</th>
+                  <th className="text-left py-2 pr-4">Best For</th>
+                  <th className="text-left py-2 pr-4">Transparency</th>
+                  <th className="text-left py-2">Compression</th>
+                </tr>
+              </thead>
+              <tbody className="text-[var(--muted)]">
+                {[
+                  { format: "PNG", best: "Graphics, logos, screenshots", transparency: "✅ Yes", compression: "Lossless" },
+                  { format: "JPEG", best: "Photos, web images", transparency: "❌ No", compression: "Lossy" },
+                  { format: "WebP", best: "Web performance", transparency: "✅ Yes", compression: "Both" },
+                  { format: "ICO", best: "Favicons, app icons", transparency: "✅ Yes", compression: "Lossless" },
+                ].map((row) => (
+                  <tr key={row.format} className="border-b border-border">
+                    <td className="py-2 pr-4 font-medium text-foreground">{row.format}</td>
+                    <td className="py-2 pr-4">{row.best}</td>
+                    <td className="py-2 pr-4">{row.transparency}</td>
+                    <td className="py-2">{row.compression}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">How to Convert Image Formats Online</h2>
           <p className="text-[var(--muted)] leading-relaxed">
             Need an image in a different format? Our converter switches between PNG, JPEG, WebP, and
             ICO instantly. Whether you need a JPEG for your website, a PNG for transparency, or an ICO
-            for a favicon, this tool handles it all.
+            for a favicon, this tool handles it all — processing happens entirely in your browser.
           </p>
+          <ol className="mt-4 space-y-2 text-[var(--muted)] list-decimal pl-5">
+            <li><strong className="text-foreground">Upload</strong> — select any image file (PNG, JPG, WebP, SVG).</li>
+            <li><strong className="text-foreground">Choose format</strong> — select your target format from the dropdown.</li>
+            <li><strong className="text-foreground">Download</strong> — save your converted image instantly.</li>
+          </ol>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">Tips for Best Results</h2>
+          <ul className="space-y-2 text-[var(--muted)] list-disc pl-5">
+            <li><strong className="text-foreground">JPEG to PNG won&apos;t improve quality.</strong> Converting a compressed format to a lossless one doesn&apos;t recover lost data.</li>
+            <li><strong className="text-foreground">Use ICO for favicons.</strong> Our ICO converter supports multiple sizes — try 32×32 or 64×64 for standard favicons.</li>
+            <li><strong className="text-foreground">Need to convert many files?</strong> Try our <a href="/tools/bulk-image-resizer" className="text-[var(--color-primary)] hover:underline">Bulk Image Resizer</a> for batch processing.</li>
+          </ul>
         </article>
 
         <div className="mt-6"><AdSlot format="rectangle" className="min-h-[250px]" /></div>

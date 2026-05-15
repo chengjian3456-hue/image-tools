@@ -197,7 +197,32 @@ export default function ImageResizerPage() {
         </div>
 
         <article className="mt-8 prose max-w-none">
-          <h2 className="text-xl font-bold mb-3">How to Resize an Image Online</h2>
+          <h2 className="text-xl font-bold mb-3">What Is an Image Resizer?</h2>
+          <p className="text-[var(--muted)] leading-relaxed">
+            An image resizer changes the pixel dimensions of a digital image — making it larger (upscaling) or smaller
+            (downscaling). This is one of the most common image editing tasks, used by photographers, social media managers,
+            web developers, and everyday users who need images at specific sizes. Unlike cropping (which cuts off parts of
+            the image), resizing preserves the entire image while adjusting its resolution.
+          </p>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">When to Use an Image Resizer</h2>
+          <div className="grid sm:grid-cols-2 gap-3 mt-2">
+            {[
+              { title: "Social Media", desc: "Each platform has specific image size requirements — Instagram (1080×1080), Twitter (1200×675), LinkedIn (1200×627)." },
+              { title: "Website Optimization", desc: "Large images slow down page load times. Resize images to the exact display size for faster performance." },
+              { title: "Email Attachments", desc: "Most email clients limit attachments to 25MB. Resize large photos before sending." },
+              { title: "E-commerce Products", desc: "Online stores need consistent product image sizes for professional-looking listings." },
+              { title: "Profile Pictures", desc: "Most platforms require specific dimensions for avatars and profile photos." },
+              { title: "Print Preparation", desc: "Resize images to 300 DPI dimensions for high-quality printed materials." },
+            ].map((item) => (
+              <div key={item.title} className="p-3 rounded-lg border border-border bg-[var(--surface-alt)]">
+                <h3 className="font-semibold text-sm">{item.title}</h3>
+                <p className="text-xs text-[var(--muted)] mt-1">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">How to Resize an Image Online</h2>
           <p className="text-[var(--muted)] leading-relaxed">
             Our free image resizer lets you change the dimensions of any image instantly. Whether you need
             to resize photos for Instagram, create the perfect LinkedIn header, or optimize images for your
@@ -206,11 +231,20 @@ export default function ImageResizerPage() {
             directly in your browser, so your files never leave your device.
           </p>
           <ol className="mt-4 space-y-2 text-[var(--muted)] list-decimal pl-5">
-            <li><strong className="text-foreground">Upload</strong> — drag and drop your image or click to browse.</li>
-            <li><strong className="text-foreground">Set dimensions</strong> — enter the desired width and height in pixels, or choose a preset size.</li>
-            <li><strong className="text-foreground">Choose format</strong> — select PNG, JPEG, or WebP as the output format.</li>
-            <li><strong className="text-foreground">Download</strong> — click download to save your resized image.</li>
+            <li><strong className="text-foreground">Upload</strong> — drag and drop your image or click to browse. Supports PNG, JPG, WebP, and SVG files.</li>
+            <li><strong className="text-foreground">Set dimensions</strong> — enter the desired width and height in pixels, or choose a preset size for popular platforms.</li>
+            <li><strong className="text-foreground">Choose format</strong> — select PNG (best quality), JPEG (smaller file), or WebP (web optimized) as the output format.</li>
+            <li><strong className="text-foreground">Download</strong> — click download to save your resized image instantly. No watermarks added.</li>
           </ol>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">Tips for Best Results</h2>
+          <ul className="space-y-2 text-[var(--muted)] list-disc pl-5">
+            <li><strong className="text-foreground">Downscale, don&apos;t upscale.</strong> Reducing image size preserves quality. Making images larger than the original can result in blur or pixelation.</li>
+            <li><strong className="text-foreground">Use the aspect ratio lock.</strong> Keep the lock enabled to maintain your image&apos;s original proportions — this prevents stretching or squashing.</li>
+            <li><strong className="text-foreground">Choose the right output format.</strong> Use PNG for graphics with text or transparency, JPEG for photos, WebP for web performance.</li>
+            <li><strong className="text-foreground">Check the preview.</strong> Always review the resized image side-by-side with the original before downloading.</li>
+            <li><strong className="text-foreground">Need to resize many images?</strong> Try our <a href="/tools/bulk-image-resizer" className="text-[var(--color-primary)] hover:underline">Bulk Image Resizer</a> to process up to 20 images at once.</li>
+          </ul>
         </article>
 
         <div className="mt-6">

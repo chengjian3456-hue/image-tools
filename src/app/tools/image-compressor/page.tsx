@@ -104,18 +104,52 @@ export default function ImageCompressorPage() {
         </div>
 
         <article className="mt-8 prose max-w-none">
-          <h2 className="text-xl font-bold mb-3">How to Compress Images Online</h2>
+          <h2 className="text-xl font-bold mb-3">What Is Image Compression?</h2>
+          <p className="text-[var(--muted)] leading-relaxed">
+            Image compression reduces file size by removing redundant or less-important data from an image.
+            There are two types: lossless (preserves all data, moderate size reduction) and lossy (discards some
+            data for dramatic size reduction). Our tool uses intelligent lossy compression that can shrink images
+            by 50-80% while keeping the visual difference nearly invisible to the human eye. This is ideal for
+            websites where every kilobyte counts for page speed.
+          </p>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">When to Compress Images</h2>
+          <div className="grid sm:grid-cols-2 gap-3 mt-2">
+            {[
+              { title: "Website Performance", desc: "Google ranks faster sites higher. Compressing images is the #1 way to improve page load speed." },
+              { title: "Email Attachments", desc: "Many email providers cap attachments at 25MB. Compress large photos before sending." },
+              { title: "Blog & Content Creation", desc: "WordPress and other CMS platforms benefit from compressed images for faster loading." },
+              { title: "E-commerce Listings", desc: "Product images on Shopify, Amazon, or eBay should be compressed for faster browsing." },
+              { title: "Social Media Uploads", desc: "Compressed images upload faster to Instagram, Facebook, and Twitter." },
+              { title: "Storage Management", desc: "Free up disk space by compressing your photo library — save up to 80% storage." },
+            ].map((item) => (
+              <div key={item.title} className="p-3 rounded-lg border border-border bg-[var(--surface-alt)]">
+                <h3 className="font-semibold text-sm">{item.title}</h3>
+                <p className="text-xs text-[var(--muted)] mt-1">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">How to Compress Images Online</h2>
           <p className="text-[var(--muted)] leading-relaxed">
             Large image files slow down your website and take up storage space. Our image compressor
             reduces file sizes while maintaining visual quality — everything happens in your browser for
-            maximum privacy and speed.
+            maximum privacy and speed. Supported formats include PNG, JPG, and WebP.
           </p>
           <ol className="mt-4 space-y-2 text-[var(--muted)] list-decimal pl-5">
-            <li><strong className="text-foreground">Upload</strong> — select the image you want to compress.</li>
-            <li><strong className="text-foreground">Adjust quality</strong> — use the slider to set your desired quality level. Lower = smaller file.</li>
-            <li><strong className="text-foreground">Compress</strong> — click the button and see the before/after comparison.</li>
-            <li><strong className="text-foreground">Download</strong> — save your compressed image.</li>
+            <li><strong className="text-foreground">Upload</strong> — select the image you want to compress. Works with PNG, JPG, and WebP files.</li>
+            <li><strong className="text-foreground">Adjust quality</strong> — use the slider to set your desired quality level (70-85% is the sweet spot for most uses).</li>
+            <li><strong className="text-foreground">Compare</strong> — see the before/after comparison side by side with file sizes shown.</li>
+            <li><strong className="text-foreground">Download</strong> — save your compressed image. Repeat as needed with different quality settings.</li>
           </ol>
+
+          <h2 className="text-xl font-bold mt-6 mb-3">Tips for Best Results</h2>
+          <ul className="space-y-2 text-[var(--muted)] list-disc pl-5">
+            <li><strong className="text-foreground">Start at 80% quality.</strong> This is the sweet spot — you&apos;ll see 50-70% size reduction with minimal visible quality loss.</li>
+            <li><strong className="text-foreground">Choose the right format.</strong> JPEG compresses photos best. PNG is better for graphics with text or transparency.</li>
+            <li><strong className="text-foreground">Use WebP for web.</strong> WebP offers 25-35% better compression than JPEG at the same visual quality. Check <a href="/tools/image-converter" className="text-[var(--color-primary)] hover:underline">Image Converter</a>.</li>
+            <li><strong className="text-foreground">Don&apos;t over-compress.</strong> Below 50% quality, artifacts become visible. Always check the preview before downloading.</li>
+          </ul>
         </article>
 
         <div className="mt-6">

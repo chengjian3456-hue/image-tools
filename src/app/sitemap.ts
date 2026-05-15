@@ -20,6 +20,14 @@ const staticPages = [
   { slug: "blog", priority: 0.8, changeFrequency: "weekly" as const },
 ];
 
+const blogPosts = [
+  "blog/heic-to-jpg-guide",
+  "blog/social-media-image-sizes-2026",
+  "blog/webp-vs-png-vs-jpeg",
+  "blog/how-to-compress-images",
+  "blog/remove-background-guide",
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const toolPages = tools.map((slug) => ({
     url: `https://onlineimagetools.xyz/tools/${slug}`,
@@ -35,6 +43,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority,
   }));
 
+  const blogUrls = blogPosts.map((slug) => ({
+    url: `https://onlineimagetools.xyz/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   return [
     {
       url: "https://onlineimagetools.xyz",
@@ -44,5 +59,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...toolPages,
     ...staticPageUrls,
+    ...blogUrls,
   ];
 }
