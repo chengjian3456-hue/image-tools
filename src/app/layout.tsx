@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "ImageTools - Free Online Image Editing Tools",
-    template: "%s | ImageTools",
+    default: "OnlineImageTools - Free Online Image Editing Tools",
+    template: "%s | OnlineImageTools",
   },
   description:
     "Free online image tools — resize, compress, convert, and edit images directly in your browser. No uploads, no sign-up, completely free.",
@@ -27,23 +27,23 @@ export const metadata: Metadata = {
     "image converter", "svg to png", "bulk image resizer", "make image transparent",
     "online image tools", "free image editor",
   ],
-  metadataBase: new URL("https://imagetools.com"),
+  metadataBase: new URL("https://onlineimagetools.xyz"),
   openGraph: {
     type: "website",
-    siteName: "ImageTools",
-    title: "ImageTools - Free Online Image Editing Tools",
+    siteName: "OnlineImageTools",
+    title: "OnlineImageTools - Free Online Image Editing Tools",
     description:
       "Free online image tools — resize, compress, convert, and edit images directly in your browser.",
-    url: "https://imagetools.com",
+    url: "https://onlineimagetools.xyz",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ImageTools - Free Online Image Editing Tools",
+    title: "OnlineImageTools - Free Online Image Editing Tools",
     description:
       "Free online image tools — resize, compress, convert, and edit images directly in your browser.",
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: "https://imagetools.com" },
+  alternates: { canonical: "https://onlineimagetools.xyz" },
 };
 
 export default function RootLayout({
