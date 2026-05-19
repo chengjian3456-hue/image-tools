@@ -1,0 +1,40 @@
+# OnlineImageTools
+Free online image editing tools — resize, compress, convert, and edit images directly in your browser. No uploads, no sign-up, completely free.
+
+## Core Pages
+- Home: https://onlineimagetools.xyz/
+- About: https://onlineimagetools.xyz/about
+- Contact: https://onlineimagetools.xyz/contact
+- Help & Guide: https://onlineimagetools.xyz/help
+- Blog: https://onlineimagetools.xyz/blog
+
+## Image Tools
+- Image Resizer: https://onlineimagetools.xyz/tools/image-resizer
+- HEIC to JPG: https://onlineimagetools.xyz/tools/heic-to-jpg
+- Image Compressor: https://onlineimagetools.xyz/tools/image-compressor
+- WebP to PNG: https://onlineimagetools.xyz/tools/webp-to-png
+- Bulk Image Resizer: https://onlineimagetools.xyz/tools/bulk-image-resizer
+- Image Converter: https://onlineimagetools.xyz/tools/image-converter
+- SVG to PNG: https://onlineimagetools.xyz/tools/svg-to-png
+- Make Transparent: https://onlineimagetools.xyz/tools/make-transparent
+
+## Legal
+- Privacy Policy: https://onlineimagetools.xyz/privacy
+- Terms of Service: https://onlineimagetools.xyz/terms
+
+## Blog Articles
+- HEIC to JPG Guide: https://onlineimagetools.xyz/blog/heic-to-jpg-guide
+- Social Media Sizes 2026: https://onlineimagetools.xyz/blog/social-media-image-sizes-2026
+- WebP vs PNG vs JPEG: https://onlineimagetools.xyz/blog/webp-vs-png-vs-jpeg
+- How to Compress Images: https://onlineimagetools.xyz/blog/how-to-compress-images
+- Remove Background Guide: https://onlineimagetools.xyz/blog/remove-background-guide
+- Resize for Instagram: https://onlineimagetools.xyz/blog/resize-images-for-instagram
+- Optimize Images for Web: https://onlineimagetools.xyz/blog/how-to-optimize-images-for-web
+- Bulk Processing Guide: https://onlineimagetools.xyz/blog/bulk-image-processing-guide
+- Image Format Guide: https://onlineimagetools.xyz/blog/image-format-guide-complete
+- SVG vs PNG: https://onlineimagetools.xyz/blog/svg-vs-png-vector-vs-raster
+- E-Commerce Image Guide: https://onlineimagetools.xyz/blog/ecommerce-product-image-guide
+- Privacy & Online Tools: https://onlineimagetools.xyz/blog/online-tools-privacy-comparison
+- How to Create Favicon: https://onlineimagetools.xyz/blog/how-to-create-favicon
+- Beginners Guide: https://onlineimagetools.xyz/blog/image-editing-beginners-guide
+- Convert Images for Email: https://onlineimagetools.xyz/blog/convert-images-for-email
