@@ -172,7 +172,6 @@ export default function ImageResizerPage() {
                       setState((s) => ({
                         ...s,
                         targetDims: { width: preset.width, height: preset.height },
-                        keepAspectRatio: false,
                       }));
                     }}
                     className="px-3 py-1.5 text-xs rounded-full border border-border hover:border-[var(--color-primary)] hover:bg-[var(--color-primary)]/5 transition-all"
