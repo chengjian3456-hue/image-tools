@@ -36,6 +36,21 @@ const blogPosts = [
   "blog/how-to-create-favicon",
   "blog/image-editing-beginners-guide",
   "blog/convert-images-for-email",
+  "blog/convert-heic-to-jpg-windows-11-free",
+  "blog/heic-to-jpg-no-upload",
+  "blog/open-heic-files-windows",
+  "blog/heic-to-jpg-batch",
+  "blog/compress-jpeg-to-20kb",
+  "blog/compress-image-to-50kb",
+  "blog/reduce-image-size-for-website",
+  "blog/compress-png-without-losing-quality",
+  "blog/resize-image-for-instagram",
+  "blog/batch-resize-images-shopify",
+  "blog/resize-image-linkedin-banner",
+  "blog/convert-png-to-ico-favicon",
+  "blog/webp-to-jpg-converter-windows",
+  "blog/svg-to-png-high-resolution",
+  "blog/remove-white-background-from-logo",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
