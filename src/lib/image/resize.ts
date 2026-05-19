@@ -23,13 +23,7 @@ export function calculateDimensions(
   }
 
   if (target.width && target.height) {
-    const targetRatio = target.width / target.height;
-    const originalRatio = original.width / original.height;
-    if (targetRatio > originalRatio) {
-      return { width: Math.round(target.height * originalRatio), height: target.height };
-    } else {
-      return { width: target.width, height: Math.round(target.width / originalRatio) };
-    }
+    return { width: target.width, height: target.height };
   }
 
   return original;
