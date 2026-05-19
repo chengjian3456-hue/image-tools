@@ -1,0 +1,11 @@
+/* TEAM */
+Creator: OnlineImageTools
+Site: https://onlineimagetools.xyz
+From: Earth
+
+/* SITE */
+Last update: 2026-05-19
+Language: English
+Doctype: HTML5
+Components: Next.js, React, Tailwind CSS, TypeScript
+Hosting: Vercel

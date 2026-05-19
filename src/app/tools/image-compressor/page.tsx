@@ -6,6 +6,7 @@ import ImagePreview from "@/components/tools/image-preview";
 import DownloadButton from "@/components/tools/download-button";
 import ToolFAQ from "@/components/tools/tool-faq";
 import AdSlot from "@/components/layout/ad-slot";
+import BreadcrumbSchema from "@/components/layout/breadcrumb-schema";
 import { compressImage } from "@/lib/image/compress";
 import { loadImage, fileToDataUrl } from "@/lib/utils/file";
 
@@ -52,6 +53,12 @@ export default function ImageCompressorPage() {
   return (
     <div className="container-page py-8 sm:py-12">
       <div className="max-w-3xl mx-auto">
+        <BreadcrumbSchema
+          items={[
+            { name: "Home", url: "https://onlineimagetools.xyz/" },
+            { name: "Image Compressor", url: "https://onlineimagetools.xyz/tools/image-compressor" },
+          ]}
+        />
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">Image Compressor</h1>
         <p className="mt-2 text-[var(--muted)]">
           Reduce image file size without losing visible quality. Perfect for websites, email, and storage.

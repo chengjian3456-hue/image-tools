@@ -6,6 +6,7 @@ import ImagePreview from "@/components/tools/image-preview";
 import DownloadButton from "@/components/tools/download-button";
 import ToolFAQ from "@/components/tools/tool-faq";
 import AdSlot from "@/components/layout/ad-slot";
+import BreadcrumbSchema from "@/components/layout/breadcrumb-schema";
 import { convertImage } from "@/lib/image/convert";
 import { loadImage, fileToDataUrl } from "@/lib/utils/file";
 import type { ImageFormat } from "@/lib/image/types";
@@ -60,6 +61,12 @@ export default function ImageConverterPage() {
   return (
     <div className="container-page py-8 sm:py-12">
       <div className="max-w-3xl mx-auto">
+        <BreadcrumbSchema
+          items={[
+            { name: "Home", url: "https://onlineimagetools.xyz/" },
+            { name: "Image Converter", url: "https://onlineimagetools.xyz/tools/image-converter" },
+          ]}
+        />
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">Image Converter</h1>
         <p className="mt-2 text-[var(--muted)]">
           Convert images between PNG, JPEG, WebP, and ICO formats. Free, instant, and private.

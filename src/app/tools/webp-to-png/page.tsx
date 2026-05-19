@@ -6,6 +6,7 @@ import ImagePreview from "@/components/tools/image-preview";
 import DownloadButton from "@/components/tools/download-button";
 import ToolFAQ from "@/components/tools/tool-faq";
 import AdSlot from "@/components/layout/ad-slot";
+import BreadcrumbSchema from "@/components/layout/breadcrumb-schema";
 import { convertImage } from "@/lib/image/convert";
 import { loadImage, fileToDataUrl } from "@/lib/utils/file";
 
@@ -45,6 +46,12 @@ export default function WebpToPngPage() {
   return (
     <div className="container-page py-8 sm:py-12">
       <div className="max-w-3xl mx-auto">
+        <BreadcrumbSchema
+          items={[
+            { name: "Home", url: "https://onlineimagetools.xyz/" },
+            { name: "WebP to PNG", url: "https://onlineimagetools.xyz/tools/webp-to-png" },
+          ]}
+        />
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">WebP to PNG Converter</h1>
         <p className="mt-2 text-[var(--muted)]">
           Convert WebP images to universally-compatible PNG format. Free, instant, and private.

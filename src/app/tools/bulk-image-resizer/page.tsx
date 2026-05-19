@@ -5,6 +5,7 @@ import ImageUploader from "@/components/tools/image-uploader";
 import DownloadButton from "@/components/tools/download-button";
 import ToolFAQ from "@/components/tools/tool-faq";
 import AdSlot from "@/components/layout/ad-slot";
+import BreadcrumbSchema from "@/components/layout/breadcrumb-schema";
 import { resizeImage } from "@/lib/image/resize";
 import { loadImage, fileToDataUrl, formatBytes } from "@/lib/utils/file";
 import type { Dimensions } from "@/lib/image/types";
@@ -82,6 +83,12 @@ export default function BulkImageResizerPage() {
   return (
     <div className="container-page py-8 sm:py-12">
       <div className="max-w-3xl mx-auto">
+        <BreadcrumbSchema
+          items={[
+            { name: "Home", url: "https://onlineimagetools.xyz/" },
+            { name: "Bulk Image Resizer", url: "https://onlineimagetools.xyz/tools/bulk-image-resizer" },
+          ]}
+        />
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">Bulk Image Resizer</h1>
         <p className="mt-2 text-[var(--muted)]">
           Resize multiple images at once to the same dimensions. Free, private, and batch processing.
