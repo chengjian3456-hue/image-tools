@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Learn how to create and convert favicons in ICO format. Step-by-step guide to making browser favicons for websites, including sizes, formats, and tools.",
 };
 
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "How to Create a Favicon — Complete Guide for 2026", description: "Step-by-step guide to creating favicons in ICO format. Covers sizes, formats, conversion tools, and best practices for browser compatibility.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "How to Create a Favicon — Complete Guide for 2026", description: "Step-by-step guide to creating favicons in ICO format. Covers sizes, formats, conversion tools, and best practices for browser compatibility.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
 
 export default function FaviconGuide() {
   return (

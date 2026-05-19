@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function WebpVsPngVsJpeg() {
   return (
     <div className="container-page max-w-3xl py-12">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "WebP vs PNG vs JPEG: Which Image Format Should You Use?", description: "Side-by-side comparison of WebP, PNG, and JPEG formats.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "WebP vs PNG vs JPEG: Which Image Format Should You Use?", description: "Side-by-side comparison of WebP, PNG, and JPEG formats.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" }) }} />
       <p className="text-sm text-[var(--color-primary)] font-medium mb-2">Image Format Guides</p>
       <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-3">WebP vs PNG vs JPEG: Which Image Format Should You Use?</h1>
       <p className="text-sm text-[var(--muted)] mb-8">Published May 15, 2026 · 6 min read</p>

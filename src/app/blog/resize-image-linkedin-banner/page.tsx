@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "LinkedIn banner and post image size guide. Resize images for LinkedIn company pages, profile banners, and posts with exact dimensions.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Resize Image for LinkedIn Banner", description: "Exact LinkedIn image dimensions for banners, posts, and company pages with free resizing tool.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Resize Image for LinkedIn Banner", description: "Exact LinkedIn image dimensions for banners, posts, and company pages with free resizing tool.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function LinkedInBanner() {
   return (

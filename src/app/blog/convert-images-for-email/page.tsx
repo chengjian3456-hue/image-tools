@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Learn how to prepare images for email: reduce file size for attachment limits, choose the right format, and compress without visible quality loss.",
 };
 
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "How to Convert and Optimize Images for Email", description: "Complete guide to preparing images for email — reduce file size, choose formats, and compress for attachment limits.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "How to Convert and Optimize Images for Email", description: "Complete guide to preparing images for email — reduce file size, choose formats, and compress for attachment limits.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
 
 export default function EmailImageGuide() {
   return (

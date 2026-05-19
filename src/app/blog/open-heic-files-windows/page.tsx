@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Can't open HEIC files on Windows? Learn 3 free methods to view and convert iPhone photos without paying for codecs or installing software.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "How to Open HEIC Files on Windows Without Software", description: "Three free methods to open and convert HEIC files on Windows without paying for codecs or installing additional software.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "How to Open HEIC Files on Windows Without Software", description: "Three free methods to open and convert HEIC files on Windows without paying for codecs or installing additional software.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function OpenHeicWindows() {
   return (

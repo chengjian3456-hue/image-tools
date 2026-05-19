@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Need to compress a JPEG to exactly 20KB? Learn how to reduce image size to meet file size limits for online applications, forms, and submissions.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Compress JPEG to 20KB", description: "How to compress a JPEG image to exactly 20KB for online application forms, submissions, and file size limits.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Compress JPEG to 20KB", description: "How to compress a JPEG image to exactly 20KB for online application forms, submissions, and file size limits.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function Compress20KB() {
   return (

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Learn how to reduce image file size for faster website loading. Compress and resize images for web without visible quality loss.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Reduce Image Size Without Losing Quality for Website", description: "Complete guide to reducing image file sizes for faster websites without visible quality loss.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Reduce Image Size Without Losing Quality for Website", description: "Complete guide to reducing image file sizes for faster websites without visible quality loss.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function ReduceImageSizeWebsite() {
   return (

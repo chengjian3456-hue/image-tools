@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Master Instagram image sizes for posts, stories, reels, and profile photos. Step-by-step guide to resize images for Instagram without quality loss.",
 };
 
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "How to Resize Images for Instagram — Complete Size Guide", description: "Complete guide to Instagram image sizes and how to resize images perfectly for every Instagram format.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "How to Resize Images for Instagram — Complete Size Guide", description: "Complete guide to Instagram image sizes and how to resize images perfectly for every Instagram format.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
 
 export default function ResizeImagesForInstagram() {
   return (

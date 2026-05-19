@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Master every image file format: PNG, JPEG, WebP, SVG, HEIC, GIF, ICO, BMP, TIFF. Learn when to use each format for web, print, and design.",
 };
 
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "The Complete Guide to Image File Formats", description: "Comprehensive guide to every image file format — when to use PNG, JPEG, WebP, SVG, HEIC, GIF, ICO, BMP, and TIFF.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "The Complete Guide to Image File Formats", description: "Comprehensive guide to every image file format — when to use PNG, JPEG, WebP, SVG, HEIC, GIF, ICO, BMP, and TIFF.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
 
 export default function ImageFormatGuideComplete() {
   const formats = [

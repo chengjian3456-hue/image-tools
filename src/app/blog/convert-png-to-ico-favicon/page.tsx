@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Convert PNG images to ICO format for browser favicons. Free online tool — supports multiple sizes in a single ICO file.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Convert PNG to ICO Favicon", description: "How to convert PNG images to ICO favicon format using free online converter. Works right in your browser.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Convert PNG to ICO Favicon", description: "How to convert PNG images to ICO favicon format using free online converter. Works right in your browser.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function ConvertPNGtoICO() {
   return (

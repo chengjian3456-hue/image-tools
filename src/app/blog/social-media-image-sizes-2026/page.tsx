@@ -17,7 +17,7 @@ export default function SocialMediaImageSizes() {
             "@type": "Article",
             headline: "Social Media Image Sizes Cheat Sheet 2026 — Complete Guide",
             description: "Complete social media image size guide for Instagram, Facebook, Twitter, LinkedIn, YouTube, Pinterest, and TikTok in 2026.",
-            author: { "@type": "Organization", name: "OnlineImageTools" },
+            image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" },
             datePublished: "2026-05-15",
             dateModified: "2026-05-15",
           }),

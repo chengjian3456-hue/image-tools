@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function HowToCompressImages() {
   return (
     <div className="container-page max-w-3xl py-12">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "How to Compress Images Without Losing Quality", description: "Guide to compressing images while maintaining visual quality. Covers quality settings, format choice, and best practices.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "How to Compress Images Without Losing Quality", description: "Guide to compressing images while maintaining visual quality. Covers quality settings, format choice, and best practices.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" }) }} />
       <p className="text-sm text-[var(--color-primary)] font-medium mb-2">Image Optimization Guides</p>
       <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-3">How to Compress Images Without Losing Quality</h1>
       <p className="text-sm text-[var(--muted)] mb-8">Published May 15, 2026 · 5 min read</p>

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Compare privacy of online image tools. Learn why browser-based processing protects your photos, and how to choose tools that never upload your files.",
 };
 
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "Online Image Tools & Privacy: Why Browser-Based Processing Matters", description: "Privacy comparison of online image tools. Why browser-based processing protects your photos from server uploads.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "Online Image Tools & Privacy: Why Browser-Based Processing Matters", description: "Privacy comparison of online image tools. Why browser-based processing protects your photos from server uploads.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
 
 export default function PrivacyComparison() {
   return (

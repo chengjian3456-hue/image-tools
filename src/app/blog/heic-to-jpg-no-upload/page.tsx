@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Convert HEIC to JPG without uploading your photos to any server. All processing happens in your browser — your private images stay on your device.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "HEIC to JPG Converter No Upload", description: "Private HEIC to JPG conversion that never uploads your photos to a server. 100% client-side processing.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "HEIC to JPG Converter No Upload", description: "Private HEIC to JPG conversion that never uploads your photos to a server. 100% client-side processing.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function HeicToJpgNoUpload() {
   return (

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Optimize product images for Shopify, Amazon, eBay, and WooCommerce. Learn sizing, compression, backgrounds, and formats for higher conversion rates.",
 };
 
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "E-Commerce Product Image Optimization Guide", description: "Complete guide to optimizing product images for e-commerce platforms including Shopify, Amazon, eBay, and WooCommerce.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "E-Commerce Product Image Optimization Guide", description: "Complete guide to optimizing product images for e-commerce platforms including Shopify, Amazon, eBay, and WooCommerce.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
 
 export default function EcommerceProductImageGuide() {
   const platforms = [

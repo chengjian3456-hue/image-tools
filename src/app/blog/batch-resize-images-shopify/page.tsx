@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Learn how to batch resize product images for Shopify. Consistent dimensions for your entire product catalog — free online tool, no uploads required.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Batch Resize Images for Shopify", description: "How to batch resize product images for Shopify to consistent dimensions using free online tools with no uploads.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Batch Resize Images for Shopify", description: "How to batch resize product images for Shopify to consistent dimensions using free online tools with no uploads.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function BatchResizeShopify() {
   return (

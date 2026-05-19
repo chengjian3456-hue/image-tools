@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Learn how to optimize images for faster websites. Covers compression, format selection, responsive images, lazy loading, and Core Web Vitals.",
 };
 
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "How to Optimize Images for Web — Speed, SEO & Quality Guide", description: "Complete guide to image optimization for web performance, including compression, format selection, and Core Web Vitals.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "How to Optimize Images for Web — Speed, SEO & Quality Guide", description: "Complete guide to image optimization for web performance, including compression, format selection, and Core Web Vitals.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
 
 export default function OptimizeImagesForWeb() {
   return (

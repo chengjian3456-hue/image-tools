@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Remove white backgrounds from logos and make them transparent. Free browser-based tool — your files never leave your device. Download as transparent PNG.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Remove White Background from Logo", description: "How to remove white backgrounds from logos and make them transparent using free browser-based tools with no uploads.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Remove White Background from Logo", description: "How to remove white backgrounds from logos and make them transparent using free browser-based tools with no uploads.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function RemoveLogoBackground() {
   return (

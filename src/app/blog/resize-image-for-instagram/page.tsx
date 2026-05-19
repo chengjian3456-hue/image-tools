@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Learn the exact image dimensions for every Instagram format. Free online resizer with built-in presets for posts, stories, and profile photos.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Resize Image for Instagram", description: "Exact Instagram image dimensions for every format with free online resizer that has built-in presets.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Resize Image for Instagram", description: "Exact Instagram image dimensions for every format with free online resizer that has built-in presets.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function ResizeForInstagram() {
   return (

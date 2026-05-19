@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function RemoveBackgroundGuide() {
   return (
     <div className="container-page max-w-3xl py-12">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "How to Remove Image Backgrounds — Complete Guide", description: "Complete guide to removing image backgrounds using browser-based tools and understanding when to use AI.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: "How to Remove Image Backgrounds — Complete Guide", description: "Complete guide to removing image backgrounds using browser-based tools and understanding when to use AI.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" }) }} />
       <p className="text-sm text-[var(--color-primary)] font-medium mb-2">Image Editing Guides</p>
       <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-3">How to Remove Image Backgrounds — Complete Guide</h1>
       <p className="text-sm text-[var(--muted)] mb-8">Published May 15, 2026 · 5 min read</p>

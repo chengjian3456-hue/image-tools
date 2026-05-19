@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Convert WebP images to JPG on Windows without installing software. Free browser-based converter that works instantly — no uploads needed.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "WebP to JPG Converter Windows", description: "Free method to convert WebP to JPG on Windows without software. Browser-based, no uploads required.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "WebP to JPG Converter Windows", description: "Free method to convert WebP to JPG on Windows without software. Browser-based, no uploads required.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function WebpToJpgWindows() {
   return (

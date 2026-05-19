@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Learn how to batch resize, compress, and convert multiple images simultaneously. Save hours with bulk image processing tools and workflows.",
 };
 
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "Bulk Image Processing: How to Edit Multiple Images at Once", description: "Complete guide to batch image processing — resize, compress, and convert multiple images simultaneously for maximum efficiency.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "Bulk Image Processing: How to Edit Multiple Images at Once", description: "Complete guide to batch image processing — resize, compress, and convert multiple images simultaneously for maximum efficiency.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
 
 export default function BulkImageProcessingGuide() {
   return (

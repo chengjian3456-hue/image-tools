@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Convert SVG to high-resolution PNG at any pixel dimension. Free online converter — choose your output size, get crystal-clear PNGs.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "SVG to PNG High Resolution", description: "How to convert SVG vector graphics to high-resolution PNG raster images at any pixel dimension.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "SVG to PNG High Resolution", description: "How to convert SVG vector graphics to high-resolution PNG raster images at any pixel dimension.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function SvgToPngHighRes() {
   return (

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Learn how to compress PNG images without losing quality. Lossless PNG compression explained — reduce file size while keeping every pixel intact.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Compress PNG Without Losing Quality", description: "How to compress PNG images losslessly — reduce file size without any quality loss using free browser-based tools.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Compress PNG Without Losing Quality", description: "How to compress PNG images losslessly — reduce file size without any quality loss using free browser-based tools.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function CompressPNGLossless() {
   return (

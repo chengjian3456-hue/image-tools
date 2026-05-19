@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Batch convert multiple HEIC files to JPG at once. Process up to 20 iPhone photos simultaneously — free, private, no uploads.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "HEIC to JPG Batch Converter", description: "How to batch convert multiple HEIC iPhone photos to JPG at once without uploading to any server.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "HEIC to JPG Batch Converter", description: "How to batch convert multiple HEIC iPhone photos to JPG at once without uploading to any server.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function HeicBatch() {
   return (

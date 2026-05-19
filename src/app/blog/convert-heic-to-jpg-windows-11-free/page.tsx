@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Learn how to convert HEIC to JPG on Windows 11 for free without installing any software or paid codecs. Works entirely in your browser, no uploads required.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Convert HEIC to JPG on Windows 11 Free", description: "Free method to convert iPhone HEIC photos to JPG on Windows 11 without installing software or codecs.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Convert HEIC to JPG on Windows 11 Free", description: "Free method to convert iPhone HEIC photos to JPG on Windows 11 without installing software or codecs.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function HeicToJpgWindows11() {
   return (

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "New to image editing? Learn the 5 essential skills: resize, compress, convert formats, remove backgrounds, and crop. No software required — all in your browser.",
 };
 
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "Image Editing for Beginners — The Only Guide You Need", description: "Complete beginner's guide to image editing covering the 5 essential skills everyone needs to know.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "Image Editing for Beginners — The Only Guide You Need", description: "Complete beginner's guide to image editing covering the 5 essential skills everyone needs to know.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
 
 export default function BeginnersGuide() {
   const skills = [

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Understand the difference between SVG vector graphics and PNG raster images. Learn when to use each format for logos, icons, photos, and web graphics.",
 };
 
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "SVG vs PNG: Vector vs Raster Graphics — When to Use Each", description: "Complete comparison of SVG vector graphics and PNG raster images. Learn when to use each format.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: "SVG vs PNG: Vector vs Raster Graphics — When to Use Each", description: "Complete comparison of SVG vector graphics and PNG raster images. Learn when to use each format.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-15", dateModified: "2026-05-15" };
 
 export default function SvgVsPng() {
   return (

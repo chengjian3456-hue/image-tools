@@ -85,14 +85,6 @@ export default function RootLayout({
                   "https://onlineimagetools.xyz",
                 ],
               },
-              potentialAction: {
-                "@type": "SearchAction",
-                target: {
-                  "@type": "EntryPoint",
-                  urlTemplate: "https://onlineimagetools.xyz/tools/image-resizer",
-                },
-                "query-input": "required name=search_term",
-              },
             }),
           }}
         />

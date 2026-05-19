@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Need to compress an image to exactly 50KB? Step-by-step guide to reduce JPEG, PNG, or WebP files to meet application and form upload limits.",
 };
 
-const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Compress Image to 50KB", description: "How to compress any image to exactly 50KB for online forms and submission requirements. Works with JPEG, PNG, and WebP.", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
+const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Compress Image to 50KB", description: "How to compress any image to exactly 50KB for online forms and submission requirements. Works with JPEG, PNG, and WebP.", image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" }, datePublished: "2026-05-19", dateModified: "2026-05-19" };
 
 export default function Compress50KB() {
   return (

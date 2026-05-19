@@ -19,7 +19,7 @@ export default function HeicToJpgGuide() {
             "@type": "Article",
             headline: "HEIC to JPG: The Complete Guide to Converting iPhone Photos",
             description: "Learn everything about HEIC files and how to convert them to JPG — the universal image format.",
-            author: { "@type": "Organization", name: "OnlineImageTools" },
+            image: "https://onlineimagetools.xyz/og-image.png", author: { "@type": "Organization", name: "OnlineImageTools" },
             datePublished: "2026-05-15",
             dateModified: "2026-05-15",
           }),
