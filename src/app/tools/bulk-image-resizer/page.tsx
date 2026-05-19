@@ -4,6 +4,7 @@ import { useState, useCallback } from "react";
 import ImageUploader from "@/components/tools/image-uploader";
 import DownloadButton from "@/components/tools/download-button";
 import ToolFAQ from "@/components/tools/tool-faq";
+import FaqSchema from "@/components/tools/faq-schema";
 import AdSlot from "@/components/layout/ad-slot";
 import BreadcrumbSchema from "@/components/layout/breadcrumb-schema";
 import { resizeImage } from "@/lib/image/resize";
@@ -204,6 +205,7 @@ export default function BulkImageResizerPage() {
 
         <div className="mt-8">
           <h2 className="text-xl font-bold mb-4">Frequently Asked Questions</h2>
+          <FaqSchema items={faqItems} />
           <ToolFAQ items={faqItems} />
         </div>
 
