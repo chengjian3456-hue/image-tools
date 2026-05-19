@@ -52,7 +52,6 @@ export const metadata: Metadata = {
     images: ["https://onlineimagetools.xyz/og-image.png"],
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: "https://onlineimagetools.xyz" },
 };
 
 export default function RootLayout({
