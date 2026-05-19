@@ -68,23 +68,15 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "WebApplication",
+              "@type": "Organization",
               name: "OnlineImageTools",
               url: "https://onlineimagetools.xyz",
               description:
                 "Free online image editing tools — resize, compress, convert, and edit images directly in your browser. No uploads, no sign-up.",
-              applicationCategory: "MultimediaApplication",
-              operatingSystem: "All",
-              offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-              author: {
-                "@type": "Organization",
-                name: "OnlineImageTools",
-                url: "https://onlineimagetools.xyz",
-                logo: "https://onlineimagetools.xyz/vercel.svg",
-                sameAs: [
-                  "https://onlineimagetools.xyz",
-                ],
-              },
+              logo: "https://onlineimagetools.xyz/vercel.svg",
+              sameAs: [
+                "https://onlineimagetools.xyz",
+              ],
             }),
           }}
         />
