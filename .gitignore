@@ -41,3 +41,10 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# SEO automation - sensitive files
+.seo-config.json
+*.log
+seo-daily-log.txt
+keyword-ranking-log.json
+tasks/*.log
