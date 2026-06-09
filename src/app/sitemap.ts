@@ -51,6 +51,8 @@ const blogPosts = [
   "blog/webp-to-jpg-converter-windows",
   "blog/svg-to-png-high-resolution",
   "blog/remove-white-background-from-logo",
+  "blog/free-image-resizer-online-guide",
+  "blog/heic-to-jpg-converter-free-guide",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
